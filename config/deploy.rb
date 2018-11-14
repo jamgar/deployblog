@@ -10,7 +10,7 @@ set :deploy_to, '/home/deploy/deployblog'
 
 set :pty, true
 
-set :linked_files, %w{config/database.yml config/master.yml}
+set :linked_files, %w{config/database.yml config/master.key}
 
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}
 
