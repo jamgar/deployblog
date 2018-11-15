@@ -36,7 +36,7 @@ set :rvm_type, :user
 set :rvm_ruby_version, 'ruby-2.5.0'
 
 ## Linked Files & Directories (Default None):
-set :linked_files, %w{config/database.yml master.key}
+set :linked_files, %w{config/database.yml config/master.key}
 set :linked_dirs,  %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
 namespace :puma do
