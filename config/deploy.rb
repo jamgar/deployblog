@@ -31,6 +31,7 @@ set :puma_init_active_record, true  # Change to false when not using ActiveRecor
 # set :branch,        :master
 # set :format,        :pretty
 # set :log_level,     :debug
+#
 set :keep_releases, 5
 set :rvm_type, :user
 set :rvm_ruby_version, 'ruby-2.5.0'
